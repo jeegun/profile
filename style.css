@@ -3,7 +3,7 @@
 
 body {
   background: #ffffff;
-  color: #575F7D;
+  color: #181818;
   font-family: 'Lacquer';
   font-size: 17px;
   font-weight: lighter;
@@ -65,6 +65,8 @@ a:hover {
 .card-white {
   background: white;
   padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 20px;
   border: 1px solid lightgrey;
   text-align: center;
 }
@@ -83,16 +85,18 @@ a:hover {
   padding-left: 0px;
 }
 
-.list-inline li {
-  display: inline;
-  padding: 10px;
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
 }
 .list-inline i {
+  list-style: none;
+  padding-left: 0px;
   font-size: 50px;
   color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
-  color: black;
+  color: #3E568D;
 }
 
 #introduction p {
